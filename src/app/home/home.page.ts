@@ -7,6 +7,10 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  count: number = 0;
   constructor() {}
 
+  public start() : void {}
+
+  public stop() : void {}
 }
