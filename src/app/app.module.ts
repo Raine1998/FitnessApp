@@ -7,6 +7,11 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
+
+import { Pedometer } from '@ionic-native/pedometer';
+import { Motion } from '@capacitor/motion';
+
+
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
