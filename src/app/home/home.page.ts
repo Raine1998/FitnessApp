@@ -12,7 +12,8 @@ import { IPedometerData } from '@ionic-native/pedometer';
 export class HomePage {
 
 
-  goal=10000;
+
+  goal: number =10000;
   startCount: Boolean = true;
   btnText: String = "START";
   stepsCount: number = 0;
@@ -31,7 +32,7 @@ export class HomePage {
     console.log("start");
 
     try {
-      
+
         console.log("Counting steps");
 
         this.stepsCount = 0; // Reseting the steps counter
