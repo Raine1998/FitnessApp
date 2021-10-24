@@ -35,8 +35,9 @@ For sensor readings, the app would need to be deployed onto a real ios device.
 ### click the add button at the bottom
 <img width="556" alt="Screen Shot 2021-10-24 at 11 33 40 PM" src="https://user-images.githubusercontent.com/19639864/138590205-7ce6a1c9-7fa2-4cd6-9974-2f88d924d64c.png">
 
+<img width="593" alt="image" src="https://user-images.githubusercontent.com/19639864/138590436-bdf8261a-1b47-4e42-8303-4b990d93454a.png">
 
-<img width="579" alt="Screen Shot 2021-10-24 at 11 36 35 PM" src="https://user-images.githubusercontent.com/19639864/138590223-aeef8b38-61f5-476c-b36b-146d8dbb99ef.png">
+
 <img width="572" alt="Screen Shot 2021-10-24 at 11 36 39 PM" src="https://user-images.githubusercontent.com/19639864/138590224-23de23ae-46bb-43a9-a450-97d261e5caab.png">
 
 
