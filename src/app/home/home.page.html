@@ -13,13 +13,62 @@
     </ion-toolbar>
   </ion-header>
 
-<div class="counter">
+<!-- <div class="counter">
 
-  <p>Steps: </p>
-  <p>{{count}}</p>
-</div>
+  <p>X: {{x}}</p>
+  <p>Y: {{y}}</p>
+  <p>Z: {{z}}</p>
+</div> -->
 
-<ion-button expand="full" color="primary" (click)="start()" >Start</ion-button>
-<ion-button expand="full" color="primary" (click)="stop()">Stop</ion-button>
+
+<ion-grid class="counter">
+
+  <ion-row class="time">
+    <ion-col col-12 class="text-center">
+      TIME
+      <span class="time-text" *ngIf="!timeElapsed">00:00:00</span>
+      <span class="time-text">{{timeElapsed | date:'HH:mm:ss'}}</span>
+    </ion-col>
+  </ion-row>
+
+  <ion-row class="steps">
+    <ion-col col-5 class="steps-col">
+      CURRENT STEPS:
+      <span class="steps-text">{{stepsCount}}</span>
+    </ion-col>
+    <ion-col col-2></ion-col>
+   
+  </ion-row>
+  <ion-row class="steps">
+    <ion-col col-5 class="steps-col">
+      GOAL:
+      <span class="steps-text">{{goal}}</span>
+    </ion-col>
+    <ion-col col-2></ion-col>
+
+    <ion-row class="steps">
+      <ion-col col-5 class="steps-col">
+        STEPS LEFT:
+        <span class="steps-text">{{stepsLeft}}</span>
+      </ion-col>
+      <ion-col col-2></ion-col>
+     
+    </ion-row>
+   
+  </ion-row>
+
+  <ion-row class="start-btn">
+    <ion-col col-12 class="zero-padding start-btn-col">
+        <ion-button expand="full" color="primary" (click)="start()" >START</ion-button>
+    </ion-col>
+  </ion-row> 
+
+  <ion-row class="start-btn">
+    <ion-col col-12 class="zero-padding start-btn-col">
+        <ion-button expand="full" color="primary" (click)="stop()" >STOP</ion-button>
+    </ion-col>
+  </ion-row> 
+
+</ion-grid>
 
 </ion-content>
